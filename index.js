@@ -43,15 +43,15 @@ console.log(students);
 
 //linked lists
 
-class node {                            //This is a node
+class Node {                            //This is a node
     constructor(data = null) {
         this.data = data;
         this.next = null;
     }
 }
-class linkedList {                      //this links each node to create a linked list
+class LinkedList {                      //this links each node to create a linked list
     constructor() {                         //each time data is added this makes a new blank node for later use
-        this.head = new node();
+        this.head = new Node();
     }
     append (item) {                        //adds node to list containing item
         let current = this.head;
@@ -80,5 +80,5 @@ class linkedList {                      //this links each node to create a linke
     
 }
 
-let linkedList = new linkedList();
+let linkedList = new LinkedList();
 
