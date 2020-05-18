@@ -25,15 +25,21 @@ d.	Provide pseudocodes, diagrams and executable code. (create a js file for exec
 3.	Explain in details JavaScript Recursion:
 a.	Introduction to Recursion.
 
+Recrsion is a method in JavaScript that runs a function repeatedly, itterating on it incrementally until it acheives its desired outcome. 
 
 b.	What are the advantages and disadvantages using JavaScript Recursion?
 
+Recursion is a good way refactor code so it is shorter and simpler.
 
-c.	Which data structure stores you can Recursion algorithm?
+c.	Which data structure stores you can be handled with a Recursion algorithm?
+
+Recursion is useful when handling data types that need to be cycled through sequentially to find a resired index; this inclues the stack data type due to its last in first out protocol, linked lists and trees due to their sequestial structure.
 
 
 d.	 Provide Real world examples
 
+see examples.js
 
 e.	Provide pseudocodes, diagrams and executable code. (create a js file for executable code)
+
 
