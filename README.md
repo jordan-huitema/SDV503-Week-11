@@ -6,23 +6,34 @@ These methods include:
 
 Stack:
 >The stack data structure is based on a 'LIFO' protocol which stands for "Last In First Out" and essentially means data is stored sequentially in a list with push() and is retrived in order of last entry to first entry with pop().
-(SDV503-Week-11\stackRef.png)
+
+see stackRef.png
 
 
 Queue:
 >The que data structure only allows new data to be accessed once the old data is proccecced, all new data is added at the end of an array and accesses from the the front.
 
+see queueRef.png
+
 Linked List:
 >A linked list functions diffrent from other data types due it its unique way of ordering data, to store new data a linked list will add a node to an array, each node contains information about that next node in the array. To access an entry you must start from the first node (called the head) and get the name or location of the next node and repeat the proccess until you arrive at the desired entry.
+
+see linkedRef.png
 
 Tree:
 >A tree is the same as a linked list but instead of each node only containing a link to the next node, in a tree structure each node can contain multiple next node links, this allows the structure to have multiple branches simmilar to a file system on  a PC that sorts types of info or timestamps into diffrent subfolders to be accessed more easily 
 
+see treeRef.png
+
 Graph:
 >A graph is a complex data structure, it is simmilar to linked list and trees but can contain multiple previous and next node extries, this means you can create a web of nodes that can all have multiple links to and form them to other nodes.
 
+see graphRef.png
+
 Hash Table:
 >Hash tables are all about accessing small amounts of data quickly and securly, a has table functions buy getting entry data, hashing it, and then storing it at a position in the memory determin by a hashed key. To retrive data the program will provide a key that once hashed will match the desired entry and the hashing function will provide the location of the data and the key to unhash it.
+
+see hashRef.png
 
 2.	Explain in details Linked lists:
 a.	Introduction to linked lists.
@@ -37,13 +48,13 @@ b.	What are the advantages and disadvantages of linked lists.
 
 c.	Provide Real world examples
 
-
+Linked lists are used in crypto currency to record transactions, in cryptocurrenccy the linked list is called a blockchain and uses hashing to be more secure but it is the same/very simmilar in medthod
 
 d.	Provide pseudocodes, diagrams and executable code. (create a js file for executable code)
 
 >for pseuedocode and executable code see example.js line 1-65
 
->for diagrams see
+see linkedRef.png
 
 3.	Explain in details JavaScript Recursion:
 a.	Introduction to Recursion.
@@ -61,14 +72,17 @@ c. Which data structure stores you can use recursion to access data?
 
 d.	 Provide Real world examples
 
-
+Recursion is very efficent in computing factorials
 
 e.	Provide pseudocodes, diagrams and executable code. (create a js file for executable code)
 
 >for pseuedocode and executable code see example.js line 57-end
 
->for diagrams see
+see recursionRef.png
 
 Refrencing:
->uhhhhh
->ill add these later
+
+Kahwaji, A. (2020, May 0). Data Structures in JavaScript. Retrieved May 19, 2020, from https://hellodeveloper2020.gitbook.io/sdv503/javascript-data-types-1/untitled
+Kahwaji, A. (2020, May 0). Linked lists. Retrieved May 19, 2020, from https://hellodeveloper2020.gitbook.io/sdv503/javascript-data-types-1/untitled/linked-lists
+
+Anderson, T. (Director). (2016, October 28). JavaScript Linked Lists Explained: Part 1 [Video file]. Retrieved May 19, 2020, from https://www.youtube.com/watch?v=BHuqkTg1jII
