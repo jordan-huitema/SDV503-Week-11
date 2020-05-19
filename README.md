@@ -25,43 +25,47 @@ Hash Table:
 2.	Explain in details Linked lists:
 a.	Introduction to linked lists.
 
-A linked list is a type of data structure that stores each entry with a link to the next entry in the array, each entry is called a nodes and to access an entry you must start from the first node (called the head) and get the name or location of the next node and repeat the proccess until you arrive at the desired entry.
+>A linked list is a type of data structure that stores each entry with a link to the next entry in the array, each entry is called a node. To access an entry you must start from the first node (called the head) and get the name or location of the next node and repeat the proccess until you arrive at the desired entry.
 
 b.	What are the advantages and disadvantages of linked lists.
 
-This type of list is useful because each entry does not have to be sotred in order on a computers menory to be accessed correctly, because each node contains the name of the next and prior, a program can easily find a program can alsways follow the corrent order
+>This type of list is useful because each entry does not have to be sotred in order on a computers menory to be accessed correctly, because each node contains the name of the next, a program can easily find a program can always follow the corrent order
 
-The downside of linked lists is that they are bulky. because each node stores more than just the data it contains, each entry is larger than it strictly needs to be. The other downside to linked lists is due to their lack of a full index, because each node only contains the info of the prior and next node a program needs to cyle through each node in order if it wants to find the disired node.
+>The downside of linked lists is that they are bulky. because each node stores more than just the data it contains, each entry is larger than it strictly needs to be. The other downside to linked lists is due to their lack of a full index, because each node only contains the info of the prior and next node a program needs to cyle through each node in order if it wants to find the disired node.
 
 c.	Provide Real world examples
 
-see example.js
+
 
 d.	Provide pseudocodes, diagrams and executable code. (create a js file for executable code)
 
-not enough time
+>for pseuedocode and executable code see example.js line 1-65
+
+>for diagrams see
 
 3.	Explain in details JavaScript Recursion:
 a.	Introduction to Recursion.
 
-Recrsion is a method in JavaScript that runs a function repeatedly, itterating on it incrementally until it acheives its desired outcome. 
+>Recrsion is a method in JavaScript that runs a function repeatedly, itterating on it incrementally until it acheives its desired outcome. 
 
 b.	What are the advantages and disadvantages using JavaScript Recursion?
 
-Recursion is a good way refactor code so it is shorter and simpler.
+>Recursion is a good way refactor code so it is shorter and simpler.
 
 c. Which data structure stores you can use recursion to access data?
 
-Recursion is useful when handling data types that need to be cycled through sequentially to find a resired index; this inclues the stack data type due to its last in first out protocol, queue's, linked lists and trees due to their sequestial structure.
+>Recursion is useful when handling data types that need to be cycled through sequentially to find a resired index; this inclues the stack data type due to its last in first out protocol, queue's, linked lists and trees due to their sequestial structure.
 
 
 d.	 Provide Real world examples
 
-see examples.js
+
 
 e.	Provide pseudocodes, diagrams and executable code. (create a js file for executable code)
 
-not enough time
+>for pseuedocode and executable code see example.js line 57-end
+
+>for diagrams see
 
 Refrencing:
 >uhhhhh
