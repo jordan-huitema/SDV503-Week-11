@@ -6,7 +6,7 @@ These methods include:
 
 Stack:
 >The stack data structure is based on a 'LIFO' protocol which stands for "Last In First Out" and essentially means data is stored sequentially in a list with push() and is retrived in order of last entry to first entry with pop().
-![ref]:SDV503-Week-11\stackRef.png
+:.\SDV503-Week-11\stackRef.png
 
 
 Queue:
